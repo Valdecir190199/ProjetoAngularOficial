@@ -1,3 +1,27 @@
 <h1>Aula</h1>
 
 <p>Aula introdutoria</p>
+
+<p> Boa noite {{nome}} </p>
+
+<form id = "form">
+
+  <input type="text" name="valor" [(ngModel)] = "valor" >
+  <button type="button"
+  name="button" (click) = "clique()"> clicar </button>
+
+
+</form>
+
+<form id ="calc">
+
+  <input type="text" name="n1" [(ngModel)] = "n1" >
+  <input type="text" name="n2" [(ngModel)] = "n2" >
+  <button type="button" (click) = "somar()"> somar</button>
+    <button type="button" (click) = "somar()"> multiplicar</button>
+      <button type="button" (click) = "somar()"> subtrair</button>
+        <button type="button" (click) = "somar()"> dividir</button>
+
+
+
+</form>
